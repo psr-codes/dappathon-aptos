@@ -1,0 +1,15 @@
+[package]
+name = "lottery-app"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x970ce09a3c477e4eb1d61428b6b57e2c268567c3909f37f416a7cb0eb54f0fc7'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

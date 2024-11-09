@@ -1,0 +1,15 @@
+[package]
+name = "lottery-2"
+version = "1.1.1"
+authors = []
+
+[addresses]
+MyModule ='0x791bb225d446fad68fb3aab4da12f8d58561f8291765c13b139e5921a68680e7'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
